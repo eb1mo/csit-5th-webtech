@@ -1,0 +1,1 @@
+place 9 images in 3x3, height & width 250 px. place images inside image folder.

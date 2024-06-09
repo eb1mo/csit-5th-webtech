@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <title>Box Model</title>
+</head>
+<style>
+    .box {
+        border: 1px solid black;
+        width: 25%;
+    }
+
+    .inner {
+        border-bottom: 1px solid black;
+        padding: 8%;
+    }
+
+
+    .inner2 {
+        border-right: 1px solid black;
+        width: 20%;
+    }
+
+    .box2 {
+        border-right: 1px solid black;
+        width: 150%;
+        padding: 125%;
+
+    }
+
+
+    .inner3 {
+        border-top: 1px solid black;
+        padding: 8%;
+    }
+</style>
+
+<body>
+    <div class="box">
+        <p>Header</p>
+        <div class="inner"></div>
+        <div class="inner2">
+           <p> This is aside</p>
+            <div class="box2"><p></p></div>
+        </div>
+        <div class="inner3"></div>
+    </div>
+
+
+</body>
+
+</html>

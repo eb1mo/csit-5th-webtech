@@ -1,0 +1,67 @@
+<html>
+  <title>Nav</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+    }
+
+    .nav {
+        background-color: black;
+        padding: 20px 25px;
+    }
+
+    ul {
+        list-style-type: none;
+    }
+
+    ul li {
+        display: inline-block;
+        position: relative;
+    }
+
+    ul li a{
+        padding: 20px 25px;
+        color: white;
+        text-decoration: none;
+    }
+
+    ul li a:hover {
+        background-color: blueviolet;
+    }
+
+   .dropdown {
+    width: 100%;
+        background-color: brown;
+        position: absolute;
+        display: none;
+    }
+
+    .dropdown a{
+        display: block;
+        padding:0 10px;
+    }
+
+    ul li:hover ul.dropdown {
+    display: block;
+   }
+  </style>
+
+  <body>
+    <div class="nav">
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li>
+          <a href="#">Services</a>
+          <ul class="dropdown">
+            <li><a href="#">Service 1</a></li>
+            <li><a href="#">Service 2</a></li>
+            <li><a href="#">Service 3</a></li>
+          </ul>
+        </li>
+        <li><a href="#">Gallery</a></li>
+      </ul>
+    </div>
+  </body>
+</html>

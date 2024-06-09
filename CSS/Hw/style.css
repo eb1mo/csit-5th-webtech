@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.nav {
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  height: 50px;
+  width: 50px;
+}
+
+.nav-list {
+  display: flex;
+  list-style-type: none;
+}
+
+.nav-list li a {
+  text-decoration: none;
+  padding: 5px 15px;
+  color: white;
+}
+
+.nav-list li a:hover {
+  background-color: blueviolet;
+}
+
+.container {
+  position: relative;
+}
+
+.container img {
+  width: 100%;
+  height: 100vh;
+}
+
+.left {
+  font-size: 40px;
+  font-weight: 1000;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.right {
+  font-size: 40px;
+  font-weight: 1000;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  padding: 5px;
+  color: white;
+}
+
+.content img {
+    float: right;
+}
+
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery img {
+    flex: 1 0 30%;
+    max-width: 30%; 
+    margin: 10px;
+}
+
+/* card css */
+
+.card-container{
+    display:flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+
+.card {
+    background-color: rgb(237, 238, 238);
+    box-shadow: 0px 4px 9px -2px rgba(0,0,0,0.47);
+    margin: 0.5%;
+    padding: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 150px;
+    line-height: 2;
+}
+
+.card:hover {
+    scale: 1.01;
+}
+
+.card h3 {
+    font-size: 30px;
+}
+
+.paid {
+    font-weight: bolder;
+}
+
+.price {
+    font-size: 30px;
+}
+.dollarsign {
+    font-size: 15px;
+}
+
+.button {
+    background-color: blueviolet;
+    color: white;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.button:hover {
+    background-color: rgb(148, 62, 228);
+    color: white;
+    padding: 5px 15px;
+    margin-top: 10px;
+    border-radius: 7px;
+}
+
+.pro-card {
+    background-color: rgb(41, 46, 46);
+    color: white;
+    box-shadow: 0px 4px 9px -2px rgba(0,0,0,0.47);
+    margin: 0.5%;
+    padding: 3%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 150px;
+    line-height: 2;
+    scale: 1.04;
+    position: relative;
+    overflow: hidden;
+}
+
+.pro-card-banner {
+  position: absolute;
+  top: 20px;
+  left: 70px;
+  padding: 0 75px;
+  background-color: yellow;
+  color: black;
+  transform: rotate(45deg);
+  /* overflow: hidden; */
+}
+
+.pro-card:hover{
+  scale: 1.06;
+}
+
+.pro-card h3 {
+    font-size: 30px;
+}

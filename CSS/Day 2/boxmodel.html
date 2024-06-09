@@ -1,0 +1,72 @@
+<html>
+<title>box model</title>
+<style>
+
+.box {
+border: 1px solid black;
+width: 25%;
+}
+
+.inner {
+border-right: 1px solid black;
+padding: 5%;
+width: 75%;
+}
+
+.box1 {
+border: 1px solid black;
+width: 25%;
+padding: 5% 0;
+}
+
+.box2 {
+border-top: 1px solid black;
+}
+
+.outerbox {
+border: 1px solid black;
+width: 25%;
+}
+
+.upinner {
+border-right: 1px solid black;
+padding: 5%;
+width: 75%;
+}
+
+.boxdown {
+border-top: 1px solid black;
+width: 100%;
+}
+
+.downinner {
+border-right: 1px solid black;
+padding: 5%;
+width: 25%;
+}
+
+</style>
+
+<body>
+
+<div class="box">
+<div class="inner"></div>
+</div>
+
+<br> <br>
+
+<div class="box1">
+<div class="box2"></div>
+</div>
+
+<br> <br>
+
+<div class="outerbox">
+<div class="upinner"></div>
+<div class="boxdown">
+<div class="downinner"></div>
+</div>
+</div>
+
+</body>
+</html>

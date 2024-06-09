@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<head><title>Box Model Test</title></head>
+<style>
+
+*
+{
+    margin: 0;
+    border: 0;
+}
+.box1
+{
+    position:absolute;
+border: 1px solid black;
+width: 15%;
+height: 25%;
+margin-left: 2%;
+
+
+}
+
+.inner1
+{
+/* position: relative; */
+border-bottom:1px solid black;
+width: 100%;
+padding: 0;
+height: 50%;
+
+}
+.inner2
+{
+
+border-bottom:0px solid black;
+width: 100%;
+padding: 0;
+height: 50%;
+
+}
+
+.box2
+{
+position: absolute;
+border: 1px solid black;
+border-left: 0px;
+width: 15%;
+padding:0;
+margin-left: 17%;
+height: 25%;
+
+}
+
+
+.box3
+{
+position:absolute;
+border: 1px solid black;
+width: 15%;
+height: 25%;
+margin-left: 32%;
+
+
+}
+
+.inner3
+{
+
+border-bottom:1px solid black;
+width: 100%;
+padding: 0;
+height: 50%;
+
+}
+.inner4
+{
+
+border-bottom:0px solid black;
+width: 100%;
+padding: 0;
+height: 50%;
+
+}
+
+</style>
+<body>
+<div class="box1">
+<div class="inner1"></div>
+<div class="inner2"></div>
+</div>
+<div class="box2">
+
+</div>
+<div class="box3">
+    <div class="inner3"></div>
+    <div class="inner4"></div>
+    
+    </div>
+
+
+</body>
+</html>

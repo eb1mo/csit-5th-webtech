@@ -1,0 +1,1 @@
+create a wwb page containing anchor tags as home, about, gallery and services. each anchor tag have its own folder name & inc=side the folder it should contain its .html extension file. all the anchor tag should be linked.
